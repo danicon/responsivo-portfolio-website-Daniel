@@ -1,0 +1,51 @@
+* HOME
+casa__social
+https://www.linkedin.com/
+https://dribbble.com/
+https://github.com/
+
+home__descrição
+Experiência de alto nível em web design e conhecimento de desenvolvimento, produzindo trabalhos de qualidade.
+
+
+* SOBRE
+sobre__descrição
+Desenvolvedor web, com amplo conhecimento e anos de experiência, atuando em tecnologias web e Ui/Ux design, entregando um trabalho de qualidade.
+
+sobre__info-nome
+Anos de experiência
+Projeto <br> concluído
+Empresas <br> trabalharam
+
+
+* SERVIÇOS
+serviços__modal-serviço
+Eu desenvolvo a interface do usuário.
+Desenvolvimento de páginas web.
+Eu crio interações de elementos ux.
+Posiciono a marca da sua empresa.
+
+
+* PORTFÓLIO
+portfólio__descrição
+Site adaptável a todos os dispositivos, com componentes ui e interações animadas.
+
+
+* PROJETO
+Descrição do Projeto
+Contacte-me agora e ganhe 30% de desconto no seu novo projeto.
+
+
+*TESTEMUNHO
+depoimento__descrição
+Fico com uma boa impressão, realizo meu projeto com toda a qualidade possível e atenção e suporte 24 horas por dia.
+
+
+* Rodapé
+rodapé__social
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+
+
