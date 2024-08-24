@@ -109,6 +109,40 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
     },
 });
 
+/*==================== PORTFOLIO MODAL ====================*/
+const PortfolioModalViews = document.querySelectorAll('.portfolio__modal'),
+      PortfolioModalBtns = document.querySelectorAll('.portfolio__buttonModal'),
+      PortfolioModalCloses = document.querySelectorAll('.portfolio__modal-close'),
+      SwiperPagination = document.querySelector('.swiper-pagination'),
+      SwiperButtonNext = document.querySelector('.swiper-button-next'),
+      SwiperButtonPrev = document.querySelector('.swiper-button-prev'),
+      Video = document.getElementById("myVideo")
+
+let Portfoliomodal = function(PortfolioModalClick) {
+    PortfolioModalViews[PortfolioModalClick].classList.add('PortfolioActive-modal')
+    SwiperPagination.style.zIndex = 'unset';
+    SwiperButtonNext.style.zIndex = 'unset';
+    SwiperButtonPrev.style.zIndex = 'unset';
+}
+
+PortfolioModalBtns.forEach((PortfolioModalBtn, i) => {
+    PortfolioModalBtn.addEventListener('click', () => {
+        Portfoliomodal(i)
+    })
+})
+
+PortfolioModalCloses.forEach((PortfolioModalClose) => {
+    PortfolioModalClose.addEventListener('click', () => {
+        PortfolioModalViews.forEach((PortfolioModalView) => {
+            PortfolioModalView.classList.remove('PortfolioActive-modal')
+        })
+        SwiperPagination.style.zIndex = '';
+        SwiperButtonNext.style.zIndex = '';
+        SwiperButtonPrev.style.zIndex = '';
+        Video.pause();  // Pausa o vídeo
+    })
+})
+
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper(".testimonial__container", {
     loop: true,
