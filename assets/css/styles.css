@@ -517,6 +517,10 @@ img {
   width: 80%;
 }
 
+.skills__bootstrap {
+  width: 70%;
+}
+
 .skills__css {
   width: 65%;
 }
@@ -532,6 +536,10 @@ img {
 
 .skills__php {
   width: 70%;
+}
+
+.skills__laravel {
+  width: 60%;
 }
 
 .skills__node {
